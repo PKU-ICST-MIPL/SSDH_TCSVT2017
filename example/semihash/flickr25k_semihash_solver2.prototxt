@@ -1,0 +1,24 @@
+net: "examples/semihash/configure/flickr25k/flickr25k_semirank_train_test_vggf_24b.prototxt"
+# test_iter specifies how many forward passes the test should carry out.
+#test_iter: 550
+# Carry out testing every 500 training iterations.
+#test_interval: 1000000
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 1e-4
+momentum: 0.9
+weight_decay: 0.0005
+# The learning rate policy
+#lr_policy: "fixed"
+lr_policy: "step"
+gamma: 0.1
+stepsize: 30000
+#power: 0.75
+# Display every 100 iterations
+display: 10
+# The maximum number of iterations
+max_iter: 70000
+# snapshot intermediate results
+snapshot: 1000
+snapshot_prefix: "models/flickr25k/24bit/vggf_semirank_th_ak_pl_sg_ftnin/flickr25k_semihash"
+# solver mode: CPU or GPU
+solver_mode: GPU
