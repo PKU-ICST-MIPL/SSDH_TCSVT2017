@@ -6,6 +6,8 @@ Jian Zhang and Yuxin Peng, "SSDH: Semi-supervised Deep Hashing for Large Scale I
 # Dependency
 Our code is based on early version of [Caffe](https://github.com/BVLC/caffe), all the dependencies are the same as Caffe.
 
+The proposed SSDH also uses the Pre-trained VGG_CNN_F model, which can be downloaded at [Caffe model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo#models-from-the-bmvc-2014-paper-return-of-the-devil-in-the-details-delving-deep-into-convolutional-nets), download this model and put it in example/semihash/Pre_trained folder.
+
 # Data Preparation
 Here we use MIRFlickr dataset for an example, under "data/flickr25k" folder, there are two list, you should resize MIRFlickr dataset according to those two list, so that Caffe can read the image data.
 
