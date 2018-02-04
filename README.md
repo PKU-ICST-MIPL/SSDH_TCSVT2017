@@ -1,7 +1,7 @@
 # Introduction
 This is the source code of our TCSVT 2017 paper "SSDH: Semi-supervised Deep Hashing for Large Scale Image Retrieval", Please cite the following paper if you use our code.
 
-Jian Zhang and Yuxin Peng, "SSDH: Semi-supervised Deep Hashing for Large Scale Image Retrieval", IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), doi: 10.1109/TCSVT.2017.2771332, 2017.
+Jian Zhang and Yuxin Peng, "SSDH: Semi-supervised Deep Hashing for Large Scale Image Retrieval", IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), doi: 10.1109/TCSVT.2017.2771332, 2017. [[arXiv]](http://arxiv.org/abs/1607.08477)
 
 # Dependency
 Our code is based on early version of [Caffe](https://github.com/BVLC/caffe), all the dependencies are the same as Caffe.
