@@ -19,3 +19,4 @@ Here we use MIRFlickr dataset for an example, under "data/flickr25k" folder, the
 4. Generate hash codes for testing set: example/semihash/extratfea_flickr25k_12bit.sh. You can adjust script to change hash code saving location GPU id etc. 
 
 For more information, please refer to our [TCSVT paper](http://arxiv.org/abs/1607.08477)
+
