@@ -21,4 +21,3 @@ Here we use MIRFlickr dataset for an example, under "data/flickr25k" folder, the
 For more information, please refer to our [TCSVT paper](http://arxiv.org/abs/1607.08477).
 
 Welcome to our [Laboratory Homepage](http://www.icst.pku.edu.cn/mipl) for more information about our papers, source codes, and datasets.
-
