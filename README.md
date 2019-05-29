@@ -11,6 +11,8 @@ The proposed SSDH also uses the Pre-trained VGG_CNN_F model, which can be downlo
 # Data Preparation
 Here we use MIRFlickr dataset for an example, under "data/flickr25k" folder, there are two list, you should resize MIRFlickr dataset according to those two list, so that Caffe can read the image data.
 
+The flickr25k_triplet_rs15w_noconflict_sf_multi_ label_h5.list is list of h5 file path. The h5 file contains multi label for the images, which is denoted as a vector, for example, (0,0,0,1,1,0,0,0,0,0,0,0,1,0 ...). For more details, see the code of the multi_label layer.
+
 # Usage
 
 1. Edit Makefile.config to suit your system
